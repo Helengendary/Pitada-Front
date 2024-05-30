@@ -34,6 +34,9 @@ grid-auto-columns: 1fr;
 
 .menu {
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu img{
@@ -41,10 +44,56 @@ grid-auto-columns: 1fr;
     width: 400px;
 }
 
-.menu em {
+.menu em, button {
     color: white;
     margin-left: 50px;
-    margin-bottom: 20px;
     font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.menu button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrossel{
+    padding: 70px;
+}
+
+.propaganda {
+    color: white;
+    padding: 70px;
+}
+
+.propaganda p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 203;
+    font-style: normal;
+}
+
+.propaganda h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 203;
     font-style: normal;
 }
