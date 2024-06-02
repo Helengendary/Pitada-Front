@@ -1,3 +1,9 @@
+<script>
+$('input').on('change', function() {
+$('body').toggleClass('blue');
+});
+</script>
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -26,22 +32,36 @@
                 <button>Começar</button>
             </div>
             <div class="carrossel">
-                <input type="radio" class="slide-controller" name="slide" checked />
-                <input type="radio" class="slide-controller" name="slide" />
-                <input type="radio" class="slide-controller" name="slide" />
-        
-                <div class="slide-show" >
-                <ul class="slides-list" >
-                    <li class="slide" >
-                    <img src="../imagens/calendarioCarrosel.png" />
-                    </li>
-                    <li class="slide" >
-                    <img src="../imagens/churras.png" />
-                    </li>
-                    <li class="slide" >
-                    <img src="../imagens/presente.png" />
-                    </li>
-                </ul>
+                <div class="container">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                  <div class="cards">
+                    <label class="card" for="item-1" id="song-1">
+                      <img src="../imagens/presente.png" alt="song">
+                    </label>
+                    <label class="card" for="item-2" id="song-2">
+                      <img src="../imagens/churras.png" alt="song">
+                    </label>
+                    <label class="card" for="item-3" id="song-3">
+                      <img src="../imagens/calendarioCarrosel.png" alt="song">
+                    </label>
+                  </div>
+                  <div class="player">
+                    <div class="upper-part">
+                      <div class="info-area" id="test">
+                        <label class="song-info" id="song-info-1">
+                          <div class="title"><b>Lista de Presentes</b>: Crie uma lista de presentes para que os convidados possam se organizar com mais facilidade.</div>
+                        </label>
+                        <label class="song-info" id="song-info-2">
+                          <div class="title"><b>Seleção de buffet e local</b>: Explore opções de buffet e locais encantadores que se alinham com o seu estilo e orçamento.</div>                     
+                        </label>
+                        <label class="song-info" id="song-info-3">
+                          <div class="title"><b>Calendário de Eventos</b>: Inculi um calendário com dias de prova de vestido, ensaio e, é claro, o dia do casamento.</div>                       
+                        </label>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
