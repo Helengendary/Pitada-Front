@@ -22,3 +22,7 @@ a {
 td {
     padding: 7px;
 }
+
+.list-group-item {
+    margin-bottom: 50px;
+}
