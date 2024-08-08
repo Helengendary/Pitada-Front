@@ -1,16 +1,125 @@
-header img {
+:root {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+hr{
+    margin: 0px;
+}
+
+header {
+    background: linear-gradient(to top right, #228dff, rgb(255, 255, 87));
+}
+
+header a {
     width: 5%;
+}
+
+header a img {
+    width: 100%;
 }
 
 body{
     margin: 0px;
+    background-color: #228dff;
+
 }
 
 .Logo-cabecalho {
     display: flex;
     align-items: center;
+
+    font-size:400%;
+    font-variant:small-caps;
+    font-style: italic;
+    margin-left: 2%;
 }
 
-header {
-    background-color: lightblue;
+main {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.apresenta {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.apresenta img {
+    width: 15%;
+    float: left;
+    margin-right: 1%;
+}
+
+.apresenta legend {
+    font-size: 20px;
+}
+
+.apresenta legend strong{
+    font-size: 40px;
+}
+
+.catalogo {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.catalogo h1 {
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+
+#imagens-catalogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imagens-catalogo a {
+    width: 10%;
+}
+
+#imagens-catalogo a img{
+    width: 100%;
+    margin: 1%;
+}
+
+#legenda-catalogo{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+
+#imagens-catalogo a img:hover {
+    width: 110%;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.conteudo-familia img {
+    width: 20%;
+}
+
+#familia-principal{
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+details{
+    margin-bottom: 5%;
+}
+
+.musica legend{
+    margin-right: 2%;
+}
+
+.redes img{
+    width: 20%;
 }
