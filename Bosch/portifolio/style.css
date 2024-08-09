@@ -8,7 +8,7 @@ hr{
 }
 
 header {
-    background: linear-gradient(to top right, #228dff, rgb(255, 255, 87));
+    background: linear-gradient(to top right, #ca1c1c, rgb(255, 255, 87));
 }
 
 header a {
@@ -21,7 +21,7 @@ header a img {
 
 body{
     margin: 0px;
-    background-color: #228dff;
+    background-color: #4276c0;
 
 }
 
@@ -116,10 +116,88 @@ details{
     margin-bottom: 5%;
 }
 
+.spotifa{
+    display: flex;
+    margin-top: 3%;
+}
+
 .musica legend{
     margin-right: 2%;
 }
 
-.redes img{
+
+.musicas-ballon {
+    font-size: 15px;
+    text-align: center;
+    font-variant: small-caps;
+    margin-bottom: 10%;
+}
+
+#album {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#barmusic {
+    width: 50%;
+    margin-top: 1%;
+}
+
+.musicas-ballon legend{
+    margin-top: 1%;
+}
+
+#i2 {
+    display: none;
+}
+#i1:hover {
+    display: none;
+}
+#i1:hover ~#i2 {
+    display: flex;
+}
+#i2:hover {
+    display: flex;
+}
+
+.friends img {
     width: 20%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    background: linear-gradient(to top right, #ca1c1c, rgb(255, 255, 87));
+    margin-top: 5%;
+    align-items: center;
+}
+
+footer a {
+    width: 5%;
+}
+
+footer img{
+    width: 100%;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filmitos {
+    width: 200px;
+    border: 2px solid white;
+    padding: 1%;
+}
+
+.filmitos img {
+    width: 200px;
+    margin-bottom: 3%;
+}
+
+#comida {
+    width: 50%;
 }
